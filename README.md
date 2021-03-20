@@ -1,4 +1,4 @@
-# kobo
+# kobo-k8s
 
 This is a helm Chart for [KoboToolbox](https://www.kobotoolbox.org/).
 
@@ -59,5 +59,6 @@ oaf-kobo-redismain-master-0                                    1/1     Running  
 ## TODO
 
 * Publish to [ArtifactHub](https://artifacthub.io/)
+* Lint
 * Auto-generate doc from values.yaml with `helm-docs`
 * Add `test` hooks
