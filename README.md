@@ -37,7 +37,7 @@ postgresql:
 EOF
 
 # Install chart
-helm install --values my-values.yaml kobo helm/kobotoolbox
+helm upgrade --install --values my-values.yaml kobo helm/kobotoolbox
 ```
 
 You should see a bunch of new pods popping up:
@@ -53,7 +53,7 @@ oaf-kobo-redismain-master-0                                    1/1     Running  
 
 ## References
 
-* [Kobo Toolbox](https://www.kobotoolbox.org/)
+* [KoboToolbox](https://www.kobotoolbox.org/)
 * [kobo-docker](https://github.com/kobotoolbox/kobo-docker)
 
 ## TODO
