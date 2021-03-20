@@ -1,6 +1,6 @@
 # kobo
 
-This is a helm Chart for [Kobo Toolbox](https://www.kobotoolbox.org/).
+This is a helm Chart for [KoboToolbox](https://www.kobotoolbox.org/).
 
 ## How to run
 
@@ -17,7 +17,7 @@ This is a helm Chart for [Kobo Toolbox](https://www.kobotoolbox.org/).
 
 ### Setup
 
-Refer to the [`values.yaml`](/one-acre-fund/kobo-k8s/blob/helm/kobotoolbox/values.yaml) for details of all the variables that can be overridden, and create your own overrides in a separate file, e.g. `my-values.yaml`.
+Refer to the [`values.yaml`](helm/kobotoolbox/values.yaml) for details of all the variables that can be overridden, and create your own overrides in a separate file, e.g. `my-values.yaml`.
 
 In particular you will need to setup a number of secrets, as well as provide a valid public domain name that the application will be reachable on.
 
